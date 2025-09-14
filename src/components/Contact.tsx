@@ -112,7 +112,7 @@ const Contact = () => {
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-16">
+          <div className="grid lg:grid-cols-2 gap-8 lg:gap-16">
             {/* Contact Form */}
             <div className="glass-effect rounded-2xl p-8">
               <h3 className="text-2xl font-medium mb-6">Send a Message</h3>
@@ -157,7 +157,7 @@ const Contact = () => {
                   type="submit" 
                   variant="neon" 
                   size="lg" 
-                  className="w-full group"
+                  className="w-full group min-h-[48px]"
                 >
                   <Send className="h-4 w-4 mr-2 group-hover:translate-x-1 transition-transform" />
                   Send Message
@@ -189,11 +189,11 @@ const Contact = () => {
               {/* Social Links */}
               <div>
                 <h4 className="text-lg font-medium mb-4">Connect With Me</h4>
-                <div ref={socialsRef} className="flex gap-4">
+                <div ref={socialsRef} className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                   <Button 
                     variant="glass" 
                     size="lg"
-                    className="group hover:border-primary/50"
+                    className="group hover:border-primary/50 min-h-[48px] justify-start sm:justify-center"
                   >
                     <Github className="h-5 w-5 group-hover:text-primary transition-colors" />
                     <span className="ml-2">GitHub</span>
@@ -202,7 +202,7 @@ const Contact = () => {
                   <Button 
                     variant="glass" 
                     size="lg"
-                    className="group hover:border-primary/50"
+                    className="group hover:border-primary/50 min-h-[48px] justify-start sm:justify-center"
                   >
                     <Linkedin className="h-5 w-5 group-hover:text-primary transition-colors" />
                     <span className="ml-2">LinkedIn</span>
@@ -211,7 +211,7 @@ const Contact = () => {
                   <Button 
                     variant="glass" 
                     size="lg"
-                    className="group hover:border-primary/50"
+                    className="group hover:border-primary/50 min-h-[48px] justify-start sm:justify-center"
                   >
                     <Mail className="h-5 w-5 group-hover:text-primary transition-colors" />
                     <span className="ml-2">Email</span>

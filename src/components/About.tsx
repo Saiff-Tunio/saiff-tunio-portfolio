@@ -80,7 +80,7 @@ const About = () => {
       <div className="absolute inset-0 bg-gradient-subtle opacity-30" />
       
       <div className="container mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           {/* Profile Image */}
           <div ref={imageRef} className="relative">
             <div className="glass-effect rounded-3xl p-8 max-w-md mx-auto lg:mx-0">
@@ -127,11 +127,11 @@ const About = () => {
             </div>
 
             {/* Skills Grid */}
-            <div ref={skillsRef} className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div ref={skillsRef} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
               {skills.map((skill, index) => (
                 <div 
                   key={skill.name}
-                  className="glass-effect p-4 rounded-xl text-center hover:border-primary/30 transition-all duration-300 group"
+                  className="glass-effect p-4 rounded-xl text-center hover:border-primary/30 transition-all duration-300 group min-h-[80px] flex flex-col justify-center"
                 >
                   <div className="text-sm font-medium text-foreground mb-2">
                     {skill.name}

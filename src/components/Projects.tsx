@@ -125,7 +125,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <div ref={cardsRef} className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div ref={cardsRef} className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {projects.map((project, index) => (
             <div
               key={index}
@@ -173,11 +173,11 @@ const Projects = () => {
 
                 {/* Action Buttons */}
                 <div className="flex gap-3">
-                  <Button variant="outline" size="sm" className="flex-1 text-xs">
+                  <Button variant="outline" size="sm" className="flex-1 text-xs min-h-[36px]">
                     <Github className="h-3 w-3 mr-2" />
                     Code
                   </Button>
-                  <Button variant="hero" size="sm" className="flex-1 text-xs">
+                  <Button variant="hero" size="sm" className="flex-1 text-xs min-h-[36px]">
                     <ExternalLink className="h-3 w-3 mr-2" />
                     Demo
                   </Button>
