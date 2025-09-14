@@ -100,37 +100,37 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           <h1 
             ref={titleRef}
-            className="text-4xl sm:text-5xl md:text-7xl font-light mb-6 leading-tight px-4 sm:px-0"
+            className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-light mb-6 leading-tight px-4 sm:px-0"
           >
             Hi, I'm{' '}
             <span className="text-gradient font-medium">Saiff</span>
             <br />
-            <span className="text-xl sm:text-2xl md:text-4xl text-muted-foreground font-light">
+            <span className="text-lg sm:text-xl md:text-3xl lg:text-4xl text-muted-foreground font-light">
               AI/ML Developer &<br className="sm:hidden" /> Creative Technologist
             </span>
           </h1>
           
           <p 
             ref={subtitleRef}
-            className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-8 sm:mb-12 font-light leading-relaxed max-w-3xl mx-auto px-4 sm:px-0"
+            className="text-base sm:text-lg md:text-xl lg:text-2xl text-muted-foreground mb-8 sm:mb-12 font-light leading-relaxed max-w-3xl mx-auto px-4 sm:px-0"
           >
             I create intelligent systems, modern web applications,
             <br className="hidden md:block" />
             and interactive experiences that push technological boundaries.
           </p>
           
-          <div ref={ctaRef} className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 sm:mb-16 px-4 sm:px-0">
-            <Button variant="hero" size="lg" className="text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 w-full sm:w-auto min-h-[48px]">
+          <div ref={ctaRef} className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center mb-12 sm:mb-16 px-4 sm:px-0">
+            <Button variant="hero" size="lg" className="text-sm sm:text-base lg:text-lg px-6 sm:px-8 py-3 sm:py-4 lg:py-6 w-full sm:w-auto min-h-[50px] sm:min-h-[56px]">
               Let's Collaborate
               <Mail className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
             </Button>
             
             <div className="flex gap-3 sm:gap-4">
-              <Button variant="glass" size="sm" className="min-h-[48px] min-w-[48px]">
-                <Github className="h-5 w-5" />
+              <Button variant="glass" size="sm" className="min-h-[50px] min-w-[50px] sm:min-h-[56px] sm:min-w-[56px]">
+                <Github className="h-5 w-5 sm:h-6 sm:w-6" />
               </Button>
-              <Button variant="glass" size="sm" className="min-h-[48px] min-w-[48px]">
-                <Linkedin className="h-5 w-5" />
+              <Button variant="glass" size="sm" className="min-h-[50px] min-w-[50px] sm:min-h-[56px] sm:min-w-[56px]">
+                <Linkedin className="h-5 w-5 sm:h-6 sm:w-6" />
               </Button>
             </div>
           </div>

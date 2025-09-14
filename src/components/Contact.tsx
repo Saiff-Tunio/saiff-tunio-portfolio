@@ -103,11 +103,11 @@ const Contact = () => {
       <div className="container mx-auto px-6 relative">
         <div className="max-w-4xl mx-auto">
           {/* Header */}
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-light mb-4">
+          <div className="text-center mb-12 sm:mb-16">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-light mb-4 sm:mb-6">
               Let's <span className="text-gradient">Collaborate</span>
             </h2>
-            <p className="text-xl text-muted-foreground">
+            <p className="text-base sm:text-lg md:text-xl text-muted-foreground px-4 sm:px-0">
               Ready to bring innovative ideas to life? Let's discuss your project.
             </p>
           </div>
@@ -157,9 +157,9 @@ const Contact = () => {
                   type="submit" 
                   variant="neon" 
                   size="lg" 
-                  className="w-full group min-h-[48px]"
+                  className="w-full group min-h-[50px] sm:min-h-[54px] text-sm sm:text-base"
                 >
-                  <Send className="h-4 w-4 mr-2 group-hover:translate-x-1 transition-transform" />
+                  <Send className="h-4 w-4 sm:h-5 sm:w-5 mr-2 group-hover:translate-x-1 transition-transform" />
                   Send Message
                 </Button>
               </form>
@@ -193,27 +193,27 @@ const Contact = () => {
                   <Button 
                     variant="glass" 
                     size="lg"
-                    className="group hover:border-primary/50 min-h-[48px] justify-start sm:justify-center"
+                    className="group hover:border-primary/50 min-h-[50px] sm:min-h-[54px] justify-start sm:justify-center text-sm sm:text-base"
                   >
-                    <Github className="h-5 w-5 group-hover:text-primary transition-colors" />
+                    <Github className="h-5 w-5 sm:h-6 sm:w-6 group-hover:text-primary transition-colors" />
                     <span className="ml-2">GitHub</span>
                   </Button>
                   
                   <Button 
                     variant="glass" 
                     size="lg"
-                    className="group hover:border-primary/50 min-h-[48px] justify-start sm:justify-center"
+                    className="group hover:border-primary/50 min-h-[50px] sm:min-h-[54px] justify-start sm:justify-center text-sm sm:text-base"
                   >
-                    <Linkedin className="h-5 w-5 group-hover:text-primary transition-colors" />
+                    <Linkedin className="h-5 w-5 sm:h-6 sm:w-6 group-hover:text-primary transition-colors" />
                     <span className="ml-2">LinkedIn</span>
                   </Button>
                   
                   <Button 
                     variant="glass" 
                     size="lg"
-                    className="group hover:border-primary/50 min-h-[48px] justify-start sm:justify-center"
+                    className="group hover:border-primary/50 min-h-[50px] sm:min-h-[54px] justify-start sm:justify-center text-sm sm:text-base"
                   >
-                    <Mail className="h-5 w-5 group-hover:text-primary transition-colors" />
+                    <Mail className="h-5 w-5 sm:h-6 sm:w-6 group-hover:text-primary transition-colors" />
                     <span className="ml-2">Email</span>
                   </Button>
                 </div>

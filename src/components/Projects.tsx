@@ -116,16 +116,16 @@ const Projects = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-background to-muted/30" />
       
       <div className="container mx-auto px-6 relative">
-        <div ref={titleRef} className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-light mb-4">
+        <div ref={titleRef} className="text-center mb-12 sm:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-light mb-4 sm:mb-6">
             Featured <span className="text-gradient">Projects</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto px-4 sm:px-0">
             A showcase of innovative solutions at the intersection of AI, web development, and creative technology.
           </p>
         </div>
 
-        <div ref={cardsRef} className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        <div ref={cardsRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
           {projects.map((project, index) => (
             <div
               key={index}
@@ -172,13 +172,13 @@ const Projects = () => {
                 </div>
 
                 {/* Action Buttons */}
-                <div className="flex gap-3">
-                  <Button variant="outline" size="sm" className="flex-1 text-xs min-h-[36px]">
-                    <Github className="h-3 w-3 mr-2" />
+                <div className="flex gap-2 sm:gap-3">
+                  <Button variant="outline" size="sm" className="flex-1 text-xs sm:text-sm min-h-[40px] sm:min-h-[44px]">
+                    <Github className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
                     Code
                   </Button>
-                  <Button variant="hero" size="sm" className="flex-1 text-xs min-h-[36px]">
-                    <ExternalLink className="h-3 w-3 mr-2" />
+                  <Button variant="hero" size="sm" className="flex-1 text-xs sm:text-sm min-h-[40px] sm:min-h-[44px]">
+                    <ExternalLink className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
                     Demo
                   </Button>
                 </div>

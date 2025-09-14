@@ -101,10 +101,10 @@ const About = () => {
           {/* Content */}
           <div ref={contentRef} className="space-y-8">
             <div>
-              <h2 className="text-4xl md:text-5xl font-light mb-4">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-light mb-4 sm:mb-6">
                 About <span className="text-gradient">Me</span>
               </h2>
-              <p className="text-lg text-muted-foreground leading-relaxed">
+              <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
                 Computer Science student passionate about the intersection of artificial intelligence 
                 and creative technology. I specialize in developing intelligent systems that solve 
                 real-world problems while creating engaging user experiences.
@@ -127,18 +127,18 @@ const About = () => {
             </div>
 
             {/* Skills Grid */}
-            <div ref={skillsRef} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
+            <div ref={skillsRef} className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
               {skills.map((skill, index) => (
                 <div 
                   key={skill.name}
-                  className="glass-effect p-4 rounded-xl text-center hover:border-primary/30 transition-all duration-300 group min-h-[80px] flex flex-col justify-center"
+                  className="glass-effect p-3 sm:p-4 rounded-xl text-center hover:border-primary/30 transition-all duration-300 group min-h-[80px] sm:min-h-[90px] flex flex-col justify-center"
                 >
-                  <div className="text-sm font-medium text-foreground mb-2">
+                  <div className="text-xs sm:text-sm font-medium text-foreground mb-2">
                     {skill.name}
                   </div>
-                  <div className="w-full bg-muted rounded-full h-2">
+                  <div className="w-full bg-muted rounded-full h-1.5 sm:h-2">
                     <div 
-                      className="bg-gradient-to-r from-primary to-violet h-2 rounded-full transition-all duration-1000 group-hover:from-violet group-hover:to-primary"
+                      className="bg-gradient-to-r from-primary to-violet h-1.5 sm:h-2 rounded-full transition-all duration-1000 group-hover:from-violet group-hover:to-primary"
                       style={{ width: `${skill.level}%` }}
                     />
                   </div>
