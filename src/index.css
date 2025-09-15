@@ -86,9 +86,33 @@ All colors MUST be HSL.
   .dark {
     --background: 220 30% 8%;
     --foreground: 220 15% 95%;
+    
+    /* Glass & Cards */
     --glass: 220 20% 12%;
     --glass-border: 220 30% 20%;
+    --card: 220 25% 10%;
+    --card-foreground: 220 15% 95%;
+
+    --popover: 220 25% 10%;
+    --popover-foreground: 220 15% 95%;
+    
+    /* Enhanced primary glow for dark mode */
     --primary-glow: 220 100% 80%;
+    
+    /* Semantic Colors for Dark Mode */
+    --secondary: 220 20% 15%;
+    --secondary-foreground: 220 15% 85%;
+
+    --muted: 220 20% 14%;
+    --muted-foreground: 220 10% 65%;
+
+    --accent: 220 20% 15%;
+    --accent-foreground: 220 15% 85%;
+
+    --border: 220 25% 18%;
+    --input: 220 25% 16%;
+    
+    /* Enhanced shadow for dark mode */
     --shadow-glass: 0 8px 32px hsla(220, 60%, 10%, 0.4);
   }
 }
