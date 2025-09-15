@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { Button } from '@/components/ui/button';
-import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
+import { ArrowDown, Github, Linkedin, Download } from 'lucide-react';
 import heroBg from '@/assets/hero-bg.jpg';
 
 const Hero = () => {
@@ -121,8 +121,8 @@ const Hero = () => {
           
           <div ref={ctaRef} className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center mb-12 sm:mb-16 px-4 sm:px-0">
             <Button variant="hero" size="lg" className="text-sm sm:text-base lg:text-lg px-6 sm:px-8 py-3 sm:py-4 lg:py-6 w-full sm:w-auto min-h-[50px] sm:min-h-[56px]">
-              Let's Collaborate
-              <Mail className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
+              Download CV
+              <Download className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
             </Button>
             
             <div className="flex gap-3 sm:gap-4">
