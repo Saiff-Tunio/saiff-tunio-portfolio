@@ -21,7 +21,7 @@ const LoadingScreen = ({ onComplete }: LoadingScreenProps) => {
         }
       })
       .to(".loader-container", {
-        duration: 0.8,
+        duration: 0.5,
         opacity: 0,
         scale: 1.1,
         ease: "power2.inOut",
@@ -41,7 +41,7 @@ const LoadingScreen = ({ onComplete }: LoadingScreenProps) => {
             Saiff
           </h1>
           <p className="text-muted-foreground font-light">
-            AI/ML Developer & Creative Technologist
+            AI/ML Researcher & Developer
           </p>
         </div>
         

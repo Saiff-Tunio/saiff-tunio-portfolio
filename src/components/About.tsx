@@ -6,13 +6,13 @@ import profilePlaceholder from '@/assets/profile-placeholder.jpg';
 gsap.registerPlugin(ScrollTrigger);
 
 const skills = [
-  { name: 'Python', level: 95 },
-  { name: 'TensorFlow', level: 88 },
-  { name: 'PyTorch', level: 85 },
+  { name: 'Python', level: 90 },
+  { name: 'TensorFlow', level: 80 },
+  { name: 'PyTorch', level: 60 },
   { name: 'React', level: 92 },
   { name: 'TypeScript', level: 90 },
-  { name: 'GSAP', level: 80 },
-  { name: 'SQL', level: 85 },
+  { name: 'Java', level: 80 },
+  { name: 'MySQL', level: 85 },
   { name: 'Docker', level: 78 },
 ];
 
@@ -105,24 +105,22 @@ const About = () => {
                 About <span className="text-gradient">Me</span>
               </h2>
               <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-                Computer Science student passionate about the intersection of artificial intelligence 
-                and creative technology. I specialize in developing intelligent systems that solve 
-                real-world problems while creating engaging user experiences.
+                AI student and researcher passionate about computer vision, medical AI, and intelligent systems 
+                with real-world impact. I focus on building applications that enhance healthcare and mental 
+                well-being, from brain tumor detection in MRI scans to depression detection on social media.
               </p>
             </div>
 
             <div>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                With expertise in machine learning, web development, and interactive design, 
-                I bridge the gap between cutting-edge AI research and practical applications. 
-                My work spans from neural network architectures to responsive web interfaces, 
-                always with a focus on innovation and user-centric design.
+                With hands-on experience in deep learning, NLP, and full-stack development, I bridge the gap between 
+                research and practical solutions. My projects span from neural network–based medical diagnostics to 
+                interactive AI chatbots and responsive web platforms, always with a focus on innovation and usability.
               </p>
               
               <p className="text-muted-foreground leading-relaxed">
-                Currently pursuing advanced studies in AI/ML while contributing to open-source 
-                projects and collaborating on research initiatives that push the boundaries 
-                of what's possible with technology.
+                Currently pursuing Bachelors' in Artificial Intelligence while contributing to applied research 
+                projects and collaborations that explore the transformative potential of AI in healthcare and beyond.
               </p>
             </div>
 

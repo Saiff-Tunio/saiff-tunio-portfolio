@@ -103,10 +103,10 @@ const Hero = () => {
             className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-light mb-6 leading-tight px-4 sm:px-0"
           >
             Hi, I'm{' '}
-            <span className="text-gradient font-medium">Saiff</span>
+            <span className="text-gradient font-medium">Saifullah Tunio</span>
             <br />
             <span className="text-lg sm:text-xl md:text-3xl lg:text-4xl text-muted-foreground font-light">
-              AI/ML Developer &<br className="sm:hidden" /> Creative Technologist
+              AI/ML Researcher Stundet &<br className="sm:hidden" /> Developer
             </span>
           </h1>
           
@@ -114,26 +114,31 @@ const Hero = () => {
             ref={subtitleRef}
             className="text-base sm:text-lg md:text-xl lg:text-2xl text-muted-foreground mb-8 sm:mb-12 font-light leading-relaxed max-w-3xl mx-auto px-4 sm:px-0"
           >
-            I create intelligent systems, modern web applications,
-            <br className="hidden md:block" />
-            and interactive experiences that push technological boundaries.
+            Passionate AI researcher exploring computer vision, medical AI, and social media analysis, with a focus on developing intelligent systems for healthcare and mental well-being.
           </p>
           
-          <div ref={ctaRef} className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center mb-12 sm:mb-16 px-4 sm:px-0">
+
+        <div ref={ctaRef} className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center mb-12 sm:mb-16 px-4 sm:px-0">
+          <a href="/Saiff-CV.pdf" download>
             <Button variant="hero" size="lg" className="text-sm sm:text-base lg:text-lg px-6 sm:px-8 py-3 sm:py-4 lg:py-6 w-full sm:w-auto min-h-[50px] sm:min-h-[56px]">
               Download CV
               <Download className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
             </Button>
-            
-            <div className="flex gap-3 sm:gap-4">
+          </a>
+          <div className="flex gap-3 sm:gap-4">
+            <a href="https://github.com/Saiff-Tunio" target="_blank" rel="noopener noreferrer" >
               <Button variant="glass" size="sm" className="min-h-[50px] min-w-[50px] sm:min-h-[56px] sm:min-w-[56px]">
                 <Github className="h-5 w-5 sm:h-6 sm:w-6" />
               </Button>
+            </a>
+            <a href="https://www.linkedin.com/in/saifftunio/" target="_blank" rel="noopener noreferrer">
               <Button variant="glass" size="sm" className="min-h-[50px] min-w-[50px] sm:min-h-[56px] sm:min-w-[56px]">
                 <Linkedin className="h-5 w-5 sm:h-6 sm:w-6" />
               </Button>
-            </div>
+            </a>
           </div>
+        </div>
+
           
           <button
             onClick={scrollToAbout}

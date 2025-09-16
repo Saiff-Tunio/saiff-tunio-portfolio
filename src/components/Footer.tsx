@@ -9,9 +9,9 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           {/* Brand */}
           <div className="text-center md:text-left">
-            <h3 className="text-2xl font-light text-gradient mb-2">Saiff</h3>
+            <h3 className="text-2xl font-light text-gradient mb-2">Saifullah Tunio</h3>
             <p className="text-muted-foreground text-sm">
-              AI/ML Developer & Creative Technologist
+              AI/ML Research Student & Developer
             </p>
           </div>
 
@@ -40,31 +40,25 @@ const Footer = () => {
           {/* Social Links */}
           <div className="flex gap-4">
             <a 
-              href="#" 
+              href="https://github.com/Saiff-Tunio" 
               className="p-2 text-muted-foreground hover:text-primary transition-colors duration-300 hover:scale-110 transform"
             >
               <Github className="h-5 w-5" />
             </a>
             <a 
-              href="#" 
+              href="https://www.linkedin.com/in/saifftunio/" 
               className="p-2 text-muted-foreground hover:text-primary transition-colors duration-300 hover:scale-110 transform"
             >
               <Linkedin className="h-5 w-5" />
-            </a>
-            <a 
-              href="#" 
-              className="p-2 text-muted-foreground hover:text-primary transition-colors duration-300 hover:scale-110 transform"
-            >
-              <Mail className="h-5 w-5" />
             </a>
           </div>
         </div>
 
         <div className="border-t border-glass-border mt-8 pt-8 text-center">
           <p className="text-muted-foreground text-sm flex items-center justify-center gap-2">
-            © {currentYear} Saiff. Built with 
+            © {currentYear} Saifullah Tunio. Built with 
             <Heart className="h-3 w-3 text-red-400 animate-pulse" /> 
-            and cutting-edge technology.
+            React, TypeScript, and Tailwind CSS.
           </p>
         </div>
       </div>

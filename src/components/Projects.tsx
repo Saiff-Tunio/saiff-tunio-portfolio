@@ -14,49 +14,46 @@ gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
   {
-    title: "AI Research Platform",
-    description: "A comprehensive platform for machine learning research with collaborative features and real-time model training visualization.",
-    tech: ["Python", "TensorFlow", "React", "FastAPI"],
+    title: "Brain Tumor Detection",
+    description: "A deep learning-based system for accurate brain tumor detection and classification from MRI scans, enhancing medical diagnosis through automated analysis.",
+    tech: ["Python", "TensorFlow", "Jupyter", "Google Scholar"],
     image: aiPlatformImg,
-    github: "#",
-    demo: "#"
+    github: "https://github.com/Saiff-Tunio/Brain-Tumor-Detection"
   },
   {
-    title: "Neural Art Generator", 
-    description: "Creative AI tool that generates unique digital artwork using advanced neural style transfer algorithms.",
-    tech: ["PyTorch", "GSAP", "TypeScript", "WebGL"],
+    title: "Depression Detection from Social Media Text", 
+    description: "An NLP-driven system for detecting signs of depression from social media text, leveraging LLMs for accurate and interpretable mental health insights.",
+    tech: ["TensorFlow", "Python", "Jupyter", "Google Scholar"],
     image: neuralArtImg,
     github: "#",
-    demo: "#"
   },
   {
-    title: "Smart Analytics Dashboard",
-    description: "Real-time data visualization dashboard with predictive analytics powered by machine learning models.",
-    tech: ["React", "D3.js", "Python", "Docker"],
+    title: "Titanic Survival Prediction",
+    description: "A machine learning model for predicting passenger survival on the Titanic dataset using logistic regression and feature engineering techniques.",
+    tech: ["Python", "Jupyter Notebook", "Scikit-learn"],
     image: analyticsImg, 
     github: "#",
-    demo: "#"
   },
   {
-    title: "Voice Command Interface",
-    description: "Natural language processing system for voice-controlled smart home automation with gesture recognition.",
-    tech: ["NLP", "Computer Vision", "IoT", "Node.js"],
+    title: "Age, Gender & Emotion Detection",
+    description: "A computer vision model that predicts age, gender, and emotional states from facial images in real time using deep learning.",
+    tech: ["Jupyter", "Python", "Scitkit-learn", "TensorFlow"],
     image: voiceImg,
     github: "#",
     demo: "#"
   },
   {
-    title: "Quantum Algorithm Simulator",
-    description: "Interactive quantum computing simulator for educational purposes with visual quantum circuit builder.",
-    tech: ["Quantum Computing", "Web Assembly", "Three.js"],
+    title: "Car Rental System",
+    description: "A Tkinter-based car rental management system with a MySQL backend, featuring booking, inventory management, and billing automation.",
+    tech: ["Python", "Tkinter", "MySQL"],
     image: quantumImg,
     github: "#",
     demo: "#"
   },
   {
-    title: "Collaborative Code AI",
-    description: "AI-powered code review and collaboration platform that provides intelligent suggestions and bug detection.",
-    tech: ["Machine Learning", "VSCode Extension", "GitHub API"],
+    title: "Portfolio Website",
+    description: "A responsive personal portfolio website showcasing projects and research, built with HTML, CSS, and JavaScript for modern, user-friendly design.",
+    tech: ["TypeScript", "ReactJS", "CSS", "HTML", "JavaScript"],
     image: codeAiImg,
     github: "#", 
     demo: "#"
