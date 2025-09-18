@@ -44,7 +44,7 @@ const Navigation = () => {
               onClick={scrollToTop}
               className="text-2xl font-light text-gradient hover:scale-105 transition-transform"
             >
-              Saiff
+              Saifullah Tunio
             </button>
 
             {/* Desktop Navigation */}

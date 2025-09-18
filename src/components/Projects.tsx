@@ -18,45 +18,42 @@ const projects = [
     description: "A deep learning-based system for accurate brain tumor detection and classification from MRI scans, enhancing medical diagnosis through automated analysis.",
     tech: ["Python", "TensorFlow", "Jupyter", "Google Scholar"],
     image: aiPlatformImg,
-    github: "https://github.com/Saiff-Tunio/Brain-Tumor-Detection"
+    github: "https://github.com/Saiff-Tunio/Brain-Tumor-Detection.git"
   },
   {
     title: "Depression Detection from Social Media Text", 
     description: "An NLP-driven system for detecting signs of depression from social media text, leveraging LLMs for accurate and interpretable mental health insights.",
     tech: ["TensorFlow", "Python", "Jupyter", "Google Scholar"],
     image: neuralArtImg,
-    github: "#",
+    github: "https://github.com/Saiff-Tunio/Depression-Detection-From-Social-Media-Text.git",
   },
   {
     title: "Titanic Survival Prediction",
     description: "A machine learning model for predicting passenger survival on the Titanic dataset using logistic regression and feature engineering techniques.",
     tech: ["Python", "Jupyter Notebook", "Scikit-learn"],
     image: analyticsImg, 
-    github: "#",
+    github: "https://github.com/Saiff-Tunio/Basic-AI-Machine-Learning-Projects.git",
   },
   {
     title: "Age, Gender & Emotion Detection",
     description: "A computer vision model that predicts age, gender, and emotional states from facial images in real time using deep learning.",
     tech: ["Jupyter", "Python", "Scitkit-learn", "TensorFlow"],
     image: voiceImg,
-    github: "#",
-    demo: "#"
+    github: "https://github.com/Saiff-Tunio/Face-Emotion-Gender-and-Age-Detection-.git"
   },
   {
-    title: "Car Rental System",
-    description: "A Tkinter-based car rental management system with a MySQL backend, featuring booking, inventory management, and billing automation.",
+    title: "Library Management System",
+    description: "A Tkinter-based Library Management System with a MySQL backend, featuring borrowing/returning, book inventory management, and fine calculation/reporting automation.",
     tech: ["Python", "Tkinter", "MySQL"],
     image: quantumImg,
-    github: "#",
-    demo: "#"
+    github: "https://github.com/Saiff-Tunio/Library-management-system.git"
   },
   {
     title: "Portfolio Website",
     description: "A responsive personal portfolio website showcasing projects and research, built with HTML, CSS, and JavaScript for modern, user-friendly design.",
     tech: ["TypeScript", "ReactJS", "CSS", "HTML", "JavaScript"],
     image: codeAiImg,
-    github: "#", 
-    demo: "#"
+    github: "https://github.com/Saiff-Tunio/saiff-tunio-portfolio.git"
   }
 ];
 
@@ -169,15 +166,25 @@ const Projects = () => {
                 </div>
 
                 {/* Action Buttons */}
+                {/* Action Buttons */}
                 <div className="flex gap-2 sm:gap-3">
-                  <Button variant="outline" size="sm" className="flex-1 text-xs sm:text-sm min-h-[40px] sm:min-h-[44px]">
-                    <Github className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
-                    Code
-                  </Button>
-                  <Button variant="hero" size="sm" className="flex-1 text-xs sm:text-sm min-h-[40px] sm:min-h-[44px]">
-                    <ExternalLink className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
-                    Demo
-                  </Button>
+                  {project.github && project.github !== "#" && (
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1"
+                    >
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        className="w-full text-xs sm:text-sm min-h-[40px] sm:min-h-[44px]"
+                      >
+                        <Github className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
+                        Code
+                      </Button>
+                    </a>
+                  )}
                 </div>
               </div>
             </div>

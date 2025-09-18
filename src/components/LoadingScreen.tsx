@@ -38,10 +38,10 @@ const LoadingScreen = ({ onComplete }: LoadingScreenProps) => {
       <div className="flex flex-col items-center space-y-8">
         <div className="text-center">
           <h1 className="text-5xl font-light tracking-wider text-gradient mb-4">
-            Saiff
+            Saifullah Tunio
           </h1>
           <p className="text-muted-foreground font-light">
-            AI/ML Researcher & Developer
+            AI/ML Research Student & Developer
           </p>
         </div>
         

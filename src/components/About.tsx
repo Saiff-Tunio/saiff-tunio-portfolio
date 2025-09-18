@@ -87,7 +87,7 @@ const About = () => {
               <div className="aspect-square bg-gradient-to-br from-primary/20 to-violet/20 rounded-2xl overflow-hidden">
                 <img 
                   src={profilePlaceholder} 
-                  alt="Saiff - AI/ML Developer & Creative Technologist"
+                  alt="Saifullah Tunio - AI/ML Research Student & Developer"
                   className="w-full h-full object-cover"
                 />
               </div>
