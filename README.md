@@ -1,4 +1,3 @@
-markdown
 # 🚀 Welcome to My Lovable Project
 
 ## 🌐 Live Website  
