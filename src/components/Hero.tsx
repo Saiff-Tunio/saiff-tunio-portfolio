@@ -106,7 +106,7 @@ const Hero = () => {
             <span className="text-gradient font-medium">Saifullah Tunio</span>
             <br />
             <span className="text-lg sm:text-xl md:text-3xl lg:text-4xl text-muted-foreground font-light">
-              AI/ML Research Stundet &<br className="sm:hidden" /> Developer
+              AI/ML Research Student &<br className="sm:hidden" /> Developer
             </span>
           </h1>
           
